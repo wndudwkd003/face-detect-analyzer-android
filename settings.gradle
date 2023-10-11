@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Face-Detect-Analyze-Android"
 include ':app'
+include ':opencv'
