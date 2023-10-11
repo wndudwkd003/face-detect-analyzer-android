@@ -2,7 +2,7 @@
   {
     "level_": 0,
     "message_": "Start JSON generation. Platform version: 26 min SDK version: x86",
-    "file_": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "file_": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\libcxx_helper\\CMakeLists.txt",
     "tag_": "debug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
@@ -14,8 +14,8 @@
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\.cxx\\Debug\\4g44336t\\x86\\android_gradle_build.json\u0027 was up-to-date",
-    "file_": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "message_": "JSON \u0027C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\.cxx\\Debug\\4g44336t\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\libcxx_helper\\CMakeLists.txt",
     "tag_": "debug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,
@@ -28,7 +28,7 @@
   {
     "level_": 0,
     "message_": "JSON generation completed without problems",
-    "file_": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\libcxx_helper\\CMakeLists.txt",
+    "file_": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\libcxx_helper\\CMakeLists.txt",
     "tag_": "debug|x86",
     "diagnosticCode_": 0,
     "memoizedIsInitialized": 1,

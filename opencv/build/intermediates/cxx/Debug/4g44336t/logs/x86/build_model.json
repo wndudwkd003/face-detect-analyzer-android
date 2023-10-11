@@ -6,9 +6,9 @@
     "deprecated": false,
     "default": true
   },
-  "cxxBuildFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\.cxx\\Debug\\4g44336t\\x86",
-  "soFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\build\\intermediates\\cxx\\Debug\\4g44336t\\obj\\x86",
-  "soRepublishFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "cxxBuildFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\.cxx\\Debug\\4g44336t\\x86",
+  "soFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\build\\intermediates\\cxx\\Debug\\4g44336t\\obj\\x86",
+  "soRepublishFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\build\\intermediates\\cmake\\debug\\obj\\x86",
   "abiPlatformVersion": 26,
   "cmake": {
     "effectiveConfiguration": {
@@ -36,15 +36,15 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\.cxx",
-      "intermediatesBaseFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\build\\intermediates",
-      "intermediatesFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\build\\intermediates\\cxx",
+      "cxxFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\.cxx",
+      "intermediatesBaseFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\build\\intermediates",
+      "intermediatesFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\build\\intermediates\\cxx",
       "gradleModulePathName": ":opencv",
-      "moduleRootFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv",
-      "moduleBuildFile": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\build.gradle",
-      "makeFile": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\libcxx_helper\\CMakeLists.txt",
+      "moduleRootFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv",
+      "moduleBuildFile": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\build.gradle",
+      "makeFile": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\libcxx_helper\\CMakeLists.txt",
       "buildSystem": "CMAKE",
-      "ndkFolder": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
+      "ndkFolder": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
       "ndkVersion": "25.1.8937393",
       "ndkSupportedAbiList": [
         "ARMEABI_V7A",
@@ -110,30 +110,30 @@
           "default": true
         }
       ],
-      "cmakeToolchainFile": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
       "cmake": {
-        "cmakeExe": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe"
+        "cmakeExe": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe"
       },
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
-          "ARM64_V8A": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
-          "X86": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-          "X86_64": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+          "ARMEABI_V7A": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid",
-        "sdkFolder": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk",
+        "rootBuildGradleFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android",
+        "sdkFolder": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },
       "outputOptions": [],
-      "ninjaExe": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "ninjaExe": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
       "hasBuildTimeInformation": true
     },
     "prefabClassPaths": [],
@@ -145,29 +145,29 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\.cxx\\Debug\\4g44336t\\prefab\\x86",
+  "prefabFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\.cxx\\Debug\\4g44336t\\prefab\\x86",
   "isActiveAbi": true,
   "fullConfigurationHash": "4g44336t3n52e6o1t5t692n2k6h1r5f2uo3m5i4s5z1n3hy6p6im696d1b38",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.1.0.\n#   - $NDK is the path to NDK 25.1.8937393.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/opencv/libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d26\n-DANDROID_PLATFORM\u003dandroid-26\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/opencv/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/opencv/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B$PROJECT/opencv/.cxx/Debug/$HASH/$ABI\n-GNinja\n-DANDROID_STL\u003dc++_shared",
   "configurationArguments": [
-    "-HD:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\libcxx_helper",
+    "-HC:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\libcxx_helper",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d26",
     "-DANDROID_PLATFORM\u003dandroid-26",
     "-DANDROID_ABI\u003dx86",
     "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
-    "-DANDROID_NDK\u003dC:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
-    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
-    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
-    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\build\\intermediates\\cxx\\Debug\\4g44336t\\obj\\x86",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\build\\intermediates\\cxx\\Debug\\4g44336t\\obj\\x86",
+    "-DANDROID_NDK\u003dC:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
+    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\build\\intermediates\\cxx\\Debug\\4g44336t\\obj\\x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\build\\intermediates\\cxx\\Debug\\4g44336t\\obj\\x86",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-BD:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\.cxx\\Debug\\4g44336t\\x86",
+    "-BC:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\.cxx\\Debug\\4g44336t\\x86",
     "-GNinja",
     "-DANDROID_STL\u003dc++_shared"
   ],
-  "stlLibraryFile": "C:\\Users\\IRLAB\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-  "intermediatesParentFolder": "D:\\User\\AndroidStudioProjects\\FaceDetectAnalyzeAndroid\\opencv\\build\\intermediates\\cxx\\Debug\\4g44336t"
+  "stlLibraryFile": "C:\\Users\\ymail\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+  "intermediatesParentFolder": "C:\\Users\\ymail\\AndroidStudioProjects\\face-detect-analyzer-android\\opencv\\build\\intermediates\\cxx\\Debug\\4g44336t"
 }

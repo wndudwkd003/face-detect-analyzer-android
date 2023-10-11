@@ -3,6 +3,7 @@ package com.example.face_detect_analyze_android
 import android.Manifest
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.graphics.Rect
 import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -21,11 +22,12 @@ import org.opencv.core.MatOfRect
 import org.opencv.core.Scalar
 import org.opencv.imgproc.Imgproc
 import androidx.camera.core.Preview
+import androidx.core.view.drawToBitmap
 import com.example.face_detect_analyze_android.databinding.ActivityObjectDetectionBinding
 import org.opencv.android.Utils
 
 
-typealias FaceListener = (bitmap: Bitmap?) -> Unit
+typealias FaceListener = (rects: Array<org.opencv.core.Rect>, cWidth: Float, cHeight: Float) -> Unit
 
 class ObjectDetectionActivity : AppCompatActivity() {
     private lateinit var viewBinding: ActivityObjectDetectionBinding
@@ -63,11 +65,11 @@ class ObjectDetectionActivity : AppCompatActivity() {
             val imageAnalyzer = ImageAnalysis.Builder()
                 .build()
                 .also {
-                    it.setAnalyzer(cameraExecutor, FaceDetectAnalyzer(this@ObjectDetectionActivity){ bitmap ->
+                    it.setAnalyzer(cameraExecutor, FaceDetectAnalyzer(this@ObjectDetectionActivity){ rects, cWidth, cHeight ->
                         runOnUiThread {
-                            viewBinding.imageView.setImageBitmap(bitmap)
+                            viewBinding.overlayView.updateFaces(rects, cWidth, cHeight)
                         }
-                })}
+                    })}
 
 
             val cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
