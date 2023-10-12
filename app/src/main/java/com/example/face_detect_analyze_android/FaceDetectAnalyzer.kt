@@ -65,13 +65,27 @@ class FaceDetectAnalyzer(
     @SuppressLint("UnsafeOptInUsageError")
     override fun analyze(imageProxy: ImageProxy) {
         val buffer = imageProxy.planes[0].buffer
-        val yData = buffer.toByteArray()
 
+        Log.d("asd", imageProxy.width.toString())
+        Log.d("asd", imageProxy.height.toString())
+
+
+
+        val yData = buffer.toByteArray()
         val yMat = Mat(imageProxy.height, imageProxy.width, CvType.CV_8UC1)
         yMat.put(0, 0, yData)
 
         val tyMat = yMat.t()
+
+        val TAG = "asd"
+
+        Log.d(TAG, "Mat type: ${tyMat?.type()}")
+        Log.d(TAG, "Mat size: ${tyMat?.size()}")
+        Log.d(TAG, "Mat channels: ${tyMat?.channels()}")
+        Log.d(TAG, "Mat depth: ${tyMat?.depth()}")
         yMat.release()
+
+
 
         val facesRects = MatOfRect()
         lbpCascadeClassifier?.detectMultiScale(tyMat, facesRects, 1.1, 3)

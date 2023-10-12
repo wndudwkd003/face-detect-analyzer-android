@@ -1,6 +1,7 @@
 package com.example.face_detect_analyze_android
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.Rect
@@ -15,6 +16,8 @@ import java.util.concurrent.Executors
 import android.widget.Toast
 import androidx.camera.core.CameraSelector
 import android.util.Log
+import android.util.Size
+import androidx.camera.core.AspectRatio
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.lifecycle.ProcessCameraProvider
 import org.opencv.core.Mat
@@ -22,6 +25,7 @@ import org.opencv.core.MatOfRect
 import org.opencv.core.Scalar
 import org.opencv.imgproc.Imgproc
 import androidx.camera.core.Preview
+import androidx.camera.core.ResolutionSelector
 import androidx.core.view.drawToBitmap
 import com.example.face_detect_analyze_android.databinding.ActivityObjectDetectionBinding
 import org.opencv.android.Utils
@@ -48,6 +52,7 @@ class ObjectDetectionActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("RestrictedApi")
     private fun startCamera() {
         val cameraProviderFuture = ProcessCameraProvider.getInstance(this)
 
@@ -62,7 +67,9 @@ class ObjectDetectionActivity : AppCompatActivity() {
 
             imageCapture = ImageCapture.Builder().build()
 
+
             val imageAnalyzer = ImageAnalysis.Builder()
+                .setTargetAspectRatio(AspectRatio.RATIO_16_9)
                 .build()
                 .also {
                     it.setAnalyzer(cameraExecutor, FaceDetectAnalyzer(this@ObjectDetectionActivity){ rects, cWidth, cHeight ->
