@@ -4,6 +4,7 @@
 
 안드로이드 애플리케이션에서 OpenCV 얼굴인식 기술을 Jetpack CameraX를 이용하여 구현 
 
+<br/>
 
 ## 미리보기
 
@@ -26,6 +27,11 @@
 </td>
 </tr>
 </table>
+
 </br>
+
+## 라이센스
+
+[OpenCV LICENSE : Apache 2 License](https://github.com/opencv/opencv/blob/master/LICENSE)
   
 
